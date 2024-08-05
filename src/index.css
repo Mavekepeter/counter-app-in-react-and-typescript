@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8em;
+}
+nav button{
+    padding: 0.5em;
+    font-size: 1em;
+    border: none;
+    border-radius: .3em;
+    background-color: purple;
+    color: white;
+}
+.main-container{
+    height: 100vh;
+    background: turquoise;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.main-container h2{
+     font-size: 4em;
+     margin-bottom: 0.6;
+}
+.count-container{
+    margin: auto;
+}
+.count-container button{
+    padding: 0.8em 3em;
+    font-size: 1.5em;
+    border: none;
+    margin-left: 1em;
+    border-radius: 0.5em;
+    color: white;
+}
+.add-btn{
+    background-color: green;
+
+}
+.sub-btn{
+    background-color: red;
+}
+.interval{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+    
+.interval-container{
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0.1em;
+    border-radius: 1em;
+    justify-items: center;
+    align-items: center;
+}
+.interval-container input{
+    width: 3em;
+    height: 1.5em;
+    padding: 0.3 bem;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+.interval-container button{
+    font-size: 1.5em;
+    border: none;
+    padding: 0.5em 2em;
+    border-radius: 1em;
+    color: white;
+    background-color: blue;
+    margin-top: 1em;
+}
